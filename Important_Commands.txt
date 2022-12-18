@@ -1,0 +1,36 @@
+1. Check the git version
+git --version
+2. assign user name
+git config --global user.name Arvind
+3.assign email
+git config --global user.email "arvinduttam25@gmail.com"
+4. check git config details
+git config --list
+5. Check git stutus
+git status
+6. Initiate the Git
+git init
+7. add in statging 
+git add --a
+8. commit the changes
+git commit -m "Initail Commit"
+9. check the log
+git log
+10. disbale the git for that folder
+rm -rf .git
+11. Clone any reposatory from hit hub
+git clone https://github.com/rogerperkin/network-programmability.git
+12. to fix the certificate issue 
+error
+fatal: unable to access 'https://github.com/rogerperkin/network-programmability.git/': 
+SSL certificate problem: unable to get local issuer certificate
+solution
+git config --global http.sslbackend schanne
+git config --global http.sslcainfo /mingw64/ssl/certs/ca-bundle.crt
+
+
+
+
+
+
+
